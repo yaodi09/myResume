@@ -8,6 +8,7 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[pdftex]{hyperref}
+\hypersetup{hidelinks}
 \usepackage{fancyhdr}
 
 
@@ -73,7 +74,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://www.linkedin.com/in/di-yao-ab8592204/}{\Large Di Yao}} & Email : \href{mailto:yaodi0926@gmail.com}{yaodi0926@gmail.com}\\
-  \href{}{1107-171 Lees Ave, Ottawa, ON, K1S 5P3} & Mobile : +1-873-288-1491 \\
+  \href{}{301-964 Smyth Rd, Ottawa, ON, K1G 6Y2} & Mobile : +1-873-288-1491 \\
 \end{tabular*}
 
 
@@ -89,24 +90,65 @@
 \section{Programming Skills}
  \resumeSubHeadingListStart
    \item{
-     \textbf{Languages}{: Java, C++, Python, Javascript, Swift, SQLite}
+     \textbf{Languages}{: Java, C++, Python, Javascript, Swift, SQLite, Terraform HCL, YAML}
     }
     %\item{
     % \textbf{Libraries}{: Visual Studio, Eclipse}
    %}
    \item{
-     \textbf{Technologies}{: Visual Studio, Eclipse, Git}
+     \textbf{Technologies}{: Git, MS Office, GCP, GitLab CI/CD}
    }
  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bell}{Ottawa, ON}
+      {Cloud Automation Developer II}{April 2026 - Current}
+      \resumeItemListStart
+        \item\small{
+          Led technical activities supporting the migration from Dataplex Data Catalog to Google Cloud Universal Catalog \vspace{-2pt}
+        }
+        \item\small{
+          Supported the modernization of legacy Hadoop workloads to GCP, helping migrate data platforms and infrastructure into cloud-native environments \vspace{-2pt}
+        }
+        \item\small{
+          Built and maintained reusable Terraform and Python automation for provisioning and managing GCP infrastructure, reducing manual configuration and improving deployment consistency. \vspace{-2pt}
+        }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bell}{Ottawa, ON}
+      {Data Scientist I}{May 2023 - April 2026}
+      \resumeItemListStart
+        \item\small{
+          Contributed to the integration of Collibra with Google Cloud Dataplex to improve enterprise data discovery and provide users with a clearer, more intuitive data catalog and self-service data access experience \vspace{-2pt}
+        }
+        \item\small{
+          Managed and maintained Google Cloud Platform (GCP) resources across multiple projects, including BigQuery, Dataplex, IAM, Cloud Functions and related cloud services \vspace{-2pt}
+        }
+        \item\small{
+          Built and maintained Terraform infrastructure-as-code (IaC) to automate the provisioning, configuration, and management of GCP resources \vspace{-2pt}
+        }
+        \item\small{
+          Built and supported GitLab CI/CD pipelines for Terraform deployments and optimize for growing cloud environments \vspace{-2pt}
+        }
+      \resumeItemListEnd
+
+    
+
+  \resumeSubHeadingListEnd
+
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
   
-    
-  
     \resumeSubheading
-      {Connect-4 Game}{}
+      {Web Connect-4 Game}{}
       {HTML, Javascript, CSS}{September 2020 - November 2020}
       \resumeItemListStart
         \item\small{
@@ -119,7 +161,7 @@
       
     \resumeSubheading
       {Video Game User Database}{}
-      {SQLite}{February 2021 - March 2020}
+      {SQLite}{February 2020 - April 2020}
       \resumeItemListStart
         \item\small{
           Constructed a database that satisfied Boyce-Codd normal form \vspace{-2pt}
@@ -158,53 +200,20 @@
       \resumeItemListEnd
   
     \resumeSubheading
-      {Live Camera Mask Detection}{}
+      {Live Camera Mask Detection with QR Code Check-In System}{}
       {Python}{February 2022 - April 2022}
       \resumeItemListStart
         \item\small{
           Dataset trained by using CNN, and the model gets tested by using Harr Cascade algorithm \vspace{-2pt}
         }
         \item\small{
-          Shows the real-time result on a webcam \vspace{-2pt}
-        }
-        
-      \resumeItemListEnd
-      
-      
-    \resumeSubheading
-      {QR Code Check-In System}{}
-      {Swift}{January 2022 - April 2022}
-      \resumeItemListStart
-        \item\small{
           Developed a QR code generating application and a QR code scanning application with the ability check history user's information \vspace{-2pt}
         }
         \item\small{
           Built nicely animated user interface by using Swift UI Kit \vspace{-2pt}
         }
+        
       \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-
-%-----------EXPERIENCE-----------------
-\section{Experience}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Presotea}{Ottawa, ON}
-      {Barista}{July 2019 - March 2021}
-      \resumeItemListStart
-        \item\small{
-          Maintained excellent customer service while efficiently serving customers \vspace{-2pt}
-        }
-        \item\small{
-          Demonstrated ability to deliver orders accurately while following company’s established food processing procedures \vspace{-2pt}
-        }
-        \item\small{
-          Effective communication between colleagues during rush hours to provide excellent quality products \vspace{-2pt}
-        }
-      \resumeItemListEnd
-
-    
 
   \resumeSubHeadingListEnd
 
